@@ -1,39 +1,28 @@
 <div align="center">
 
-```
-██████╗ ██╗   ██╗███████╗██╗███╗   ██╗███████╗███████╗███████╗
-██╔══██╗██║   ██║██╔════╝██║████╗  ██║██╔════╝██╔════╝██╔════╝
-██████╔╝██║   ██║███████╗██║██╔██╗ ██║█████╗  ███████╗███████╗
-██╔══██╗██║   ██║╚════██║██║██║╚██╗██║██╔══╝  ╚════██║╚════██║
-██████╔╝╚██████╔╝███████║██║██║ ╚████║███████╗███████║███████║
-╚═════╝  ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝╚══════╝
-
-       █████╗ ███╗   ██╗ █████╗ ██╗  ██╗   ██╗███████╗██╗███████╗
-      ██╔══██╗████╗  ██║██╔══██╗██║  ╚██╗ ██╔╝██╔════╝██║██╔════╝
-      ███████║██╔██╗ ██║███████║██║   ╚████╔╝ ███████╗██║███████╗
-      ██╔══██║██║╚██╗██║██╔══██║██║    ╚██╔╝  ╚════██║██║╚════██║
-      ██║  ██║██║ ╚████║██║  ██║███████╗██║   ███████║██║███████║
-      ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚═╝   ╚══════╝╚═╝╚══════╝
-```
-
-### `HOTEL BOOKINGS — BUSINESS ANALYSIS REPORT`
-#### *30,000 bookings. $166M at risk. 3 fixes to recover $37M/year.*
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:040d1a,50:071220,100:040d1a&height=200&section=header&text=BUSINESS%20ANALYSIS%20REPORT&fontSize=40&fontColor=e2e8f0&fontAlignY=42&desc=Hotel%20Bookings%20%7C%2030%2C000%20Records%20%7C%20%24166M%20at%20Risk&descSize=14&descAlignY=66&descColor=38bdf8&animation=fadeIn" width="100%"/>
 
 <br/>
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2.x-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-1.26-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.8-11557c?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-0.13-4c72b0?style=for-the-badge)
-![python-pptx](https://img.shields.io/badge/python--pptx-0.6-D04423?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2400&pause=900&color=38BDF8&center=true&vCenter=true&width=760&height=40&lines=30%2C000+bookings+ingested+%E2%80%94+one+CSV%2C+full+pipeline;20.2%25+cancellation+rate+traced+to+root+cause;%2437M%2Fyear+recoverable+across+3+targeted+fixes;92.3%25+of+cancels+linked+to+missing+check-in+dates;Board-ready+exec+deck%2C+zero+manual+formatting" alt="Typing SVG"/>
+
+<br/><br/>
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-0f172a?style=for-the-badge&logo=python&logoColor=38bdf8&labelColor=0f172a)
+![Pandas](https://img.shields.io/badge/Pandas-2.x-0f172a?style=for-the-badge&logo=pandas&logoColor=38bdf8&labelColor=0f172a)
+![NumPy](https://img.shields.io/badge/NumPy-1.26-0f172a?style=for-the-badge&logo=numpy&logoColor=38bdf8&labelColor=0f172a)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.8-0f172a?style=for-the-badge&logoColor=38bdf8&labelColor=0f172a)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.13-0f172a?style=for-the-badge&logoColor=38bdf8&labelColor=0f172a)
+![python-pptx](https://img.shields.io/badge/python--pptx-0.6-0f172a?style=for-the-badge&logo=microsoftpowerpoint&logoColor=38bdf8&labelColor=0f172a)
+![License](https://img.shields.io/badge/License-MIT-0f172a?style=for-the-badge&logoColor=38bdf8&labelColor=0f172a)
 
 </div>
 
----
+<br/>
 
-## ◈ OVERVIEW
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#overview)
+
+## Overview
 
 ```python
 project = {
@@ -50,33 +39,33 @@ project = {
 }
 ```
 
-Most hotel analytics stop at dashboards.
-This pipeline goes further — root-cause analysis, revenue quantification,
-and a board-ready executive deck. All from a single CSV.
+Most hotel analytics stop at dashboards. This pipeline goes further — root-cause analysis, revenue quantification, and a board-ready executive deck. All from a single CSV.
 
----
+<br/>
 
-## ◈ KEY FINDINGS
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#findings)
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   METRIC                          STAT        IMPACT           │
-│   ─────────────────────────────────────────────────────────    │
-│   Overall cancellation rate       20.2%       6,070 bookings   │
-│   Missing check-in → cancel       92.3%       83% of all cancels│
-│   Jul–Aug peak cancel rate        28–30.3%    1.5× annual avg  │
-│   Travel Agent cancel rate        27.9%       1-in-3 lost      │
-│   Web vs Mobile avg value         $28,191     32% higher       │
-│   Deluxe vs Standard cancel delta −7.3 pp     16% vs 23.3%     │
-│   Recoverable revenue             ~$37M/year  3 interventions  │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+## Key Findings
 
----
+<div align="center">
 
-## ◈ PIPELINE
+| Metric | Stat | Impact |
+|:---|:---:|:---|
+| Overall cancellation rate | **20.2%** | 6,070 bookings lost |
+| Missing check-in → cancel | **92.3%** | 83% of all cancellations |
+| Jul–Aug peak cancel rate | **28–30.3%** | 1.5× the annual average |
+| Travel Agent cancel rate | **27.9%** | 1-in-3 bookings lost |
+| Web vs Mobile avg value | **$28,191** | 32% higher on web |
+| Deluxe vs Standard cancel delta | **−7.3 pp** | 16% vs 23.3% |
+| Recoverable revenue | **~$37M/year** | 3 targeted interventions |
+
+</div>
+
+<br/>
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#pipeline)
+
+## Pipeline
 
 ```
   Hotel_bookings_final.csv  (30,000 rows × 18 cols)
@@ -84,70 +73,64 @@ and a board-ready executive deck. All from a single CSV.
             ▼
 ┌───────────────────────────────────────────────────────┐
 │  STEP 1 — INGESTION & CLEANING                        │
-│  • Parse all date columns                             │
-│  • Engineer: lead_time, stay_length,                  │
-│    profit_margin, is_cancelled                        │
-│  • Flag missing check-in dates (5,468 rows)           │
+│  Parse date columns · Engineer lead_time,             │
+│  stay_length, profit_margin, is_cancelled             │
+│  Flag missing check-in dates (5,468 rows)             │
 └──────────────────────┬────────────────────────────────┘
                        │
                        ▼
 ┌───────────────────────────────────────────────────────┐
 │  STEP 2 — KEY METRICS                                 │
-│  • Cancellation rate  →  20.2%                        │
-│  • Avg booking value  →  $25,329                      │
-│  • Confirmed revenue  →  $548,200,000                 │
+│  Cancellation rate  →  20.2%                          │
+│  Avg booking value  →  $25,329                        │
+│  Confirmed revenue  →  $548,200,000                   │
 └──────────────────────┬────────────────────────────────┘
                        │
                        ▼
 ┌───────────────────────────────────────────────────────┐
 │  STEPS 3–9 — 9-STEP EDA                               │
-│  • Booking status distribution                        │
-│  • Channel performance + heatmaps                     │
-│  • Room-type breakdown                                │
-│  • Star rating analysis                               │
-│  • Seasonality (Apr 2024 – Apr 2025)                  │
-│  • Geo-segmentation (10 US cities)                    │
-│  • Cancellation root-cause analysis                   │
+│  Booking status distribution                          │
+│  Channel performance + heatmaps                       │
+│  Room-type breakdown · Star rating analysis           │
+│  Seasonality (Apr 2024 – Apr 2025)                    │
+│  Geo-segmentation (10 US cities)                      │
+│  Cancellation root-cause analysis                     │
 └──────────────────────┬────────────────────────────────┘
                        │
                        ▼
 ┌───────────────────────────────────────────────────────┐
 │  STEP 10 — AUTO EXECUTIVE DECK  (_deck.py)            │
-│  • Dark-theme PowerPoint via python-pptx              │
-│  • Charts + colour-coded insights embedded            │
-│  • Strategic recommendations — zero manual formatting │
+│  Dark-theme PowerPoint via python-pptx                │
+│  Charts + colour-coded insights embedded              │
+│  Strategic recommendations — zero manual formatting   │
 └──────────────────────┬────────────────────────────────┘
                        │
                        ▼
             .pptx  +  charts  +  strategy_pdf.pdf
 ```
 
----
+<br/>
 
-## ◈ FEATURES
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#features)
+
+## Features
+
+<div align="center">
 
 | Module | What it does |
-|---|---|
+|:---|:---|
 | `hotel_booking_analysis.py` | Full 9-step EDA pipeline — cleans, engineers features, generates 12+ charts |
 | `_deck.py` | Auto-builds a dark-theme executive `.pptx` deck — charts, insights, recommendations |
-| `Hotel_bookings_final.csv` | 30,000 hotel booking transactions |
-| `strategy_pdf.pdf` | Rendered strategy presentation (PDF export) |
+| `Hotel_bookings_final.csv` | 30,000 hotel booking transactions across 18 columns |
+| `strategy_pdf.pdf` | Rendered strategy presentation ready for board distribution |
 
----
+</div>
 
-## ◈ TECH STACK
+<br/>
 
-```
-Language       →  Python 3.10+
-Data           →  Pandas 2.x · NumPy 1.26
-Visualisation  →  Matplotlib 3.8 · Seaborn 0.13
-Reporting      →  python-pptx 0.6 (auto-generated executive deck)
-Dataset        →  30,000 hotel booking records (18 columns)
-```
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#start)
 
----
-
-## ◈ GETTING STARTED
+## Getting Started
 
 **1. Clone**
 ```bash
@@ -155,7 +138,7 @@ git clone https://github.com/lakshyaverma2004/Buisnees-Analysis-Report.git
 cd Buisnees-Analysis-Report
 ```
 
-**2. Create virtual environment (recommended)**
+**2. Create virtual environment**
 ```bash
 python -m venv .venv
 source .venv/bin/activate        # macOS / Linux
@@ -169,9 +152,11 @@ pip install pandas numpy matplotlib seaborn python-pptx
 
 > Make sure `Hotel_bookings_final.csv` is in the project root before running.
 
----
+<br/>
 
-## ◈ USAGE
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#usage)
+
+## Usage
 
 **Run the full EDA pipeline**
 ```bash
@@ -205,17 +190,19 @@ Avg Booking Value    : $25,329
 Total Confirmed Rev  : $548,200,000
 ```
 
----
+<br/>
 
-## ◈ PROJECT STRUCTURE
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#structure)
+
+## Project Structure
 
 ```
 Buisnees-Analysis-Report/
 │
-├── hotel_booking_analysis.py   ← main EDA + analysis pipeline
-├── _deck.py                    ← executive PowerPoint deck generator
-├── Hotel_bookings_final.csv    ← dataset (30K records)
-├── strategy_pdf.pdf            ← rendered strategy presentation
+├── hotel_booking_analysis.py   Main EDA + analysis pipeline (9 steps)
+├── _deck.py                    Executive PowerPoint deck generator
+├── Hotel_bookings_final.csv    Dataset — 30K records, 18 columns
+├── strategy_pdf.pdf            Rendered strategy presentation
 │
 └── assets/
     ├── hero_demo.gif
@@ -224,39 +211,53 @@ Buisnees-Analysis-Report/
     └── gif_03_deck.gif
 ```
 
----
+<br/>
 
-## ◈ IMPACT
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#impact)
+
+## Impact
+
+<div align="center">
+
+| Outcome | Result |
+|:---|:---:|
+| Cancellation root cause identified | **92.3% traced** |
+| Recoverable revenue mapped | **$37M of $166M** |
+| Reporting time saved | **−55%** |
+| Manual deck formatting hours | **0 hrs** |
+
+</div>
 
 ```
-Before  →  Raw bookings CSV. No visibility into cancellation drivers.
-After   →  Root cause identified. Revenue loss quantified. Deck generated.
-
   Cancellation root cause found   ████████████████████  92.3% traced
   Recoverable revenue mapped      ████████████████░░░░  $37M / $166M
   Reporting time saved            ████████████████░░░░  -55%
-  Auto deck — manual work         ████████████████████  0 hrs formatting
+  Auto deck — manual formatting   ████████████████████  0 hrs
 ```
 
----
+<br/>
 
-## ◈ ROADMAP
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#roadmap)
+
+## Roadmap
 
 ```
-[✓] Data ingestion + cleaning pipeline
-[✓] 9-step EDA (channel, room, rating, seasonality, geo)
-[✓] Cancellation root-cause analysis
-[✓] Revenue impact quantification ($166M at risk)
-[✓] Auto-generated executive PowerPoint deck
-[ ] Interactive Plotly / Streamlit dashboard
-[ ] Predictive cancellation model (XGBoost / logistic regression)
-[ ] Real-time booking feed integration
-[ ] Automated monthly report scheduler
+[✓]  Data ingestion + cleaning pipeline
+[✓]  9-step EDA (channel, room, rating, seasonality, geo)
+[✓]  Cancellation root-cause analysis
+[✓]  Revenue impact quantification ($166M at risk)
+[✓]  Auto-generated executive PowerPoint deck
+[ ]  Interactive Plotly / Streamlit dashboard
+[ ]  Predictive cancellation model (XGBoost / logistic regression)
+[ ]  Real-time booking feed integration
+[ ]  Automated monthly report scheduler
 ```
 
----
+<br/>
 
-## ◈ CONTRIBUTING
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributing)
+
+## Contributing
 
 ```bash
 # 1. Fork the repo
@@ -272,23 +273,37 @@ git push origin feature/your-feature
 
 Please include a short explanation of the business insight any new analysis surfaces.
 
----
+<br/>
 
-## ◈ LICENSE
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#license)
+
+## License
 
 Distributed under the **MIT License**.
 `MIT License — Copyright (c) 2025 Lakshya Verma`
 
----
+<br/>
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#footer)
 
 <div align="center">
 
-built by **[Lakshya Verma](https://github.com/lakshyaverma2004)**
+<br/>
 
-`B.Tech CSE (AI/ML) · Manipal Institute of Technology`
+Built by **[Lakshya Verma](https://github.com/lakshyaverma2004)**
+
+`B.Tech CSE (AI/ML) · Manipal Institute of Technology · 2027`
+
+<br/>
+
+![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=lakshyaverma2004.Buisnees-Analysis-Report&left_color=0f172a&right_color=1e3a5f&left_text=Views)
+
+<br/>
 
 *$166M in risk. 3 fixes. 1 CSV. That's the job.*
 
-**[⬆ back to top](#)**
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:040d1a,100:071220&height=70&section=footer&text=Build.%20Analyze.%20Automate.&fontSize=16&fontColor=38bdf8&fontAlignY=50&desc=vermalakshya12%40gmail.com&descSize=11&descColor=64748b&descAlignY=80" width="100%"/>
 
 </div>
