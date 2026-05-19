@@ -1,12 +1,4 @@
-"""
-=============================================================================
-Hotel Bookings Analysis - End-to-End EDA & Business Strategy
-=============================================================================
-Author : Senior Data Scientist (Automated Pipeline)
-Dataset: Hotel_bookings_final.csv  (30,000 booking transactions)
-Stack  : pandas, matplotlib, seaborn
-=============================================================================
-"""
+
 
 import sys
 import io
