@@ -1,20 +1,20 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0f1e,50:0d1829,100:0a0f1e&height=200&section=header&text=TAMILNADU%20ELECTIONS%20DECODED&fontSize=36&fontColor=e2e8f0&fontAlignY=42&desc=2021%20vs%202026%20%7C%208%2C489%20Candidates%20%7C%20234%20Constituencies%20%7C%20AtliQ%20Media&descSize=13&descAlignY=66&descColor=f97316&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:040d1a,50:071220,100:040d1a&height=200&section=header&text=BUSINESS%20ANALYSIS%20REPORT&fontSize=40&fontColor=e2e8f0&fontAlignY=42&desc=Hotel%20Bookings%20%7C%2030%2C000%20Records%20%7C%20%24166M%20at%20Risk&descSize=14&descAlignY=66&descColor=38bdf8&animation=fadeIn" width="100%"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2400&pause=900&color=F97316&center=true&vCenter=true&width=780&height=40&lines=8%2C489+candidate+rows+ingested+%E2%80%94+two+CSVs%2C+one+pipeline;85.10%25+turnout+in+2026+%E2%80%94+record+high%2C+%2B12+pp+swing;234+constituencies+decoded+across+6+regions;Seat+flips+tracked+%E2%80%94+volatility+index+built;Board-ready+exec+deck%2C+zero+manual+formatting" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2400&pause=900&color=38BDF8&center=true&vCenter=true&width=760&height=40&lines=30%2C000+bookings+ingested+%E2%80%94+one+CSV%2C+full+pipeline;20.2%25+cancellation+rate+traced+to+root+cause;%2437M%2Fyear+recoverable+across+3+targeted+fixes;92.3%25+of+cancels+linked+to+missing+check-in+dates;Board-ready+exec+deck%2C+zero+manual+formatting" alt="Typing SVG"/>
 
 <br/><br/>
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-0f172a?style=for-the-badge&logo=python&logoColor=f97316&labelColor=0f172a)
-![Pandas](https://img.shields.io/badge/Pandas-2.x-0f172a?style=for-the-badge&logo=pandas&logoColor=f97316&labelColor=0f172a)
-![NumPy](https://img.shields.io/badge/NumPy-1.26-0f172a?style=for-the-badge&logo=numpy&logoColor=f97316&labelColor=0f172a)
-![Plotly](https://img.shields.io/badge/Plotly-5.x-0f172a?style=for-the-badge&logo=plotly&logoColor=f97316&labelColor=0f172a)
-![Dash](https://img.shields.io/badge/Dash-2.x-0f172a?style=for-the-badge&logoColor=f97316&labelColor=0f172a)
-![python-pptx](https://img.shields.io/badge/python--pptx-0.6-0f172a?style=for-the-badge&logo=microsoftpowerpoint&logoColor=f97316&labelColor=0f172a)
-![License](https://img.shields.io/badge/License-MIT-0f172a?style=for-the-badge&logoColor=f97316&labelColor=0f172a)
+![Python](https://img.shields.io/badge/Python-3.10%2B-0f172a?style=for-the-badge&logo=python&logoColor=38bdf8&labelColor=0f172a)
+![Pandas](https://img.shields.io/badge/Pandas-2.x-0f172a?style=for-the-badge&logo=pandas&logoColor=38bdf8&labelColor=0f172a)
+![NumPy](https://img.shields.io/badge/NumPy-1.26-0f172a?style=for-the-badge&logo=numpy&logoColor=38bdf8&labelColor=0f172a)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.8-0f172a?style=for-the-badge&logoColor=38bdf8&labelColor=0f172a)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.13-0f172a?style=for-the-badge&logoColor=38bdf8&labelColor=0f172a)
+![python-pptx](https://img.shields.io/badge/python--pptx-0.6-0f172a?style=for-the-badge&logo=microsoftpowerpoint&logoColor=38bdf8&labelColor=0f172a)
+![License](https://img.shields.io/badge/License-MIT-0f172a?style=for-the-badge&logoColor=38bdf8&labelColor=0f172a)
 
 </div>
 
@@ -26,23 +26,20 @@
 
 ```python
 project = {
-    "client"   : "AtliQ Media — Election TV Show Producer",
-    "domain"   : "Tamil Nadu Legislative Assembly Elections",
-    "dataset"  : ["tn_2021_results.csv", "tn_2026_results.csv", "constituency_master.csv"],
-    "rows"     : {"2021": 4_232, "2026": 4_257, "total": 8_489},
-    "stack"    : ["Python", "Pandas", "NumPy", "Plotly", "Dash", "python-pptx"],
-    "pipeline" : ["Ingestion", "Cleaning", "Party Standardisation", "Winner Extraction",
-                  "Flip Detection", "Plotly Dashboard", "Auto Exec Deck"],
-    "scope"    : {
-        "constituencies" : 234,
-        "regions"        : 6,   # Chennai Metro, North, Central, Kongu, Delta, South
-        "parties_tracked": 13,
-        "turnout_swing"  : "+12.06 pp  (73.04% → 85.10%)",
+    "domain"   : "Hotel Bookings / Hospitality",
+    "dataset"  : "Hotel_bookings_final.csv",
+    "rows"     : 30_000,
+    "stack"    : ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "python-pptx"],
+    "pipeline" : ["Ingestion", "Cleaning", "Feature Engineering", "9-Step EDA", "Auto Deck"],
+    "revenue"  : {
+        "at_risk"    : "$166M",
+        "recoverable": "$37M/year",
+        "fixes"      : 3,
     }
 }
 ```
 
-Most election analytics stop at seat tallies. This pipeline goes further — cross-election swing analysis, region-level volatility scoring, constituency flip detection, and an auto-generated executive deck purpose-built for AtliQ Media's live TV broadcast. All from two CSVs and a master table.
+Most hotel analytics stop at dashboards. This pipeline goes further — root-cause analysis, revenue quantification, and a board-ready executive deck. All from a single CSV.
 
 <br/>
 
@@ -52,16 +49,15 @@ Most election analytics stop at seat tallies. This pipeline goes further — cro
 
 <div align="center">
 
-| Metric | Stat | Significance |
+| Metric | Stat | Impact |
 |:---|:---:|:---|
-| Statewide turnout 2026 | **85.10%** | Record high — up from 73.04% in 2021 |
-| Turnout swing | **+12.06 pp** | Largest single-cycle jump in recent TN history |
-| Total constituencies | **234** | 188 GEN · 44 SC · 2 ST |
-| Candidate rows ingested | **8,489** | 4,232 (2021) + 4,257 (2026) |
-| Regions decoded | **6** | Chennai Metro, North, Central, Kongu, Delta, South |
-| Parties tracked | **13+** | DMK, AIADMK, TVK, INC, BJP, PMK, VCK, NTK, CPI, CPIM … |
-| Seat flip index | **built** | Constituency-level party volatility tracked |
-| Executive deck | **auto-generated** | Zero manual formatting — PDF ready for broadcast |
+| Overall cancellation rate | **20.2%** | 6,070 bookings lost |
+| Missing check-in → cancel | **92.3%** | 83% of all cancellations |
+| Jul–Aug peak cancel rate | **28–30.3%** | 1.5× the annual average |
+| Travel Agent cancel rate | **27.9%** | 1-in-3 bookings lost |
+| Web vs Mobile avg value | **$28,191** | 32% higher on web |
+| Deluxe vs Standard cancel delta | **−7.3 pp** | 16% vs 23.3% |
+| Recoverable revenue | **~$37M/year** | 3 targeted interventions |
 
 </div>
 
@@ -72,51 +68,45 @@ Most election analytics stop at seat tallies. This pipeline goes further — cro
 ## Pipeline
 
 ```
-  tn_2021_results.csv       tn_2026_results.csv       constituency_master.csv
-  (4,232 rows × 8 cols)     (4,257 rows × 8 cols)     (234 rows × 5 cols)
-          │                         │                          │
-          └─────────────────────────┴──────────────────────────┘
-                                    │
-                                    ▼
-┌───────────────────────────────────────────────────────────────┐
-│  STEP 1 — INGESTION & CLEANING (data_pipeline.py)            │
-│  Strip whitespace · Standardise 13+ party name variants       │
-│  Merge with constituency_master on ac_number (primary key)    │
-│  Simulate 2026 turnout from 2021 baseline  (+12.06 pp avg)    │
-└──────────────────────────┬────────────────────────────────────┘
-                           │
-                           ▼
-┌───────────────────────────────────────────────────────────────┐
-│  STEP 2 — WINNER EXTRACTION & FLIP DETECTION                  │
-│  idxmax(votes) per constituency → winners_2021 / winners_2026 │
-│  Merge on ac_number · flag is_flip where party changed        │
-│  Compute volatility index across all 234 seats                │
-└──────────────────────────┬────────────────────────────────────┘
-                           │
-                           ▼
-┌───────────────────────────────────────────────────────────────┐
-│  STEP 3 — PROCESSED OUTPUTS                                   │
-│  cleaned_results_2021.csv · cleaned_results_2026.csv          │
-│  constituency_winners_and_flips.csv · summary_metrics.txt     │
-└──────────────────────────┬────────────────────────────────────┘
-                           │
-                           ▼
-┌───────────────────────────────────────────────────────────────┐
-│  STEP 4 — INTERACTIVE DASHBOARD (dashboard.py)               │
-│  Plotly Dash app · Party seat share · Regional heatmaps       │
-│  Swing analysis · Constituency-level flip explorer            │
-│  Reservation breakdown (GEN / SC / ST)                        │
-└──────────────────────────┬────────────────────────────────────┘
-                           │
-                           ▼
-┌───────────────────────────────────────────────────────────────┐
-│  STEP 5 — AUTO EXECUTIVE DECK (generate_deck_pdf.py)         │
-│  python-pptx dark-theme deck · Charts + insights embedded     │
-│  AtliQ Media broadcast-ready · Zero manual formatting         │
-└──────────────────────────┬────────────────────────────────────┘
-                           │
-                           ▼
-         atliq_media_election_deck.pdf  +  charts  +  processed CSVs
+  Hotel_bookings_final.csv  (30,000 rows × 18 cols)
+            │
+            ▼
+┌───────────────────────────────────────────────────────┐
+│  STEP 1 — INGESTION & CLEANING                        │
+│  Parse date columns · Engineer lead_time,             │
+│  stay_length, profit_margin, is_cancelled             │
+│  Flag missing check-in dates (5,468 rows)             │
+└──────────────────────┬────────────────────────────────┘
+                       │
+                       ▼
+┌───────────────────────────────────────────────────────┐
+│  STEP 2 — KEY METRICS                                 │
+│  Cancellation rate  →  20.2%                          │
+│  Avg booking value  →  $25,329                        │
+│  Confirmed revenue  →  $548,200,000                   │
+└──────────────────────┬────────────────────────────────┘
+                       │
+                       ▼
+┌───────────────────────────────────────────────────────┐
+│  STEPS 3–9 — 9-STEP EDA                               │
+│  Booking status distribution                          │
+│  Channel performance + heatmaps                       │
+│  Room-type breakdown · Star rating analysis           │
+│  Seasonality (Apr 2024 – Apr 2025)                    │
+│  Geo-segmentation (10 US cities)                      │
+│  Cancellation root-cause analysis                     │
+└──────────────────────┬────────────────────────────────┘
+                       │
+                       ▼
+┌───────────────────────────────────────────────────────┐
+│  STEP 10 — AUTO EXECUTIVE DECK  (_deck.py)            │
+│  Dark-theme PowerPoint via python-pptx                │
+│  Charts + colour-coded insights embedded              │
+│  Strategic recommendations — zero manual formatting   │
+└──────────────────────┬────────────────────────────────┘
+                       │
+                       ▼
+            .pptx  +  charts  +  strategy_pdf.pdf
 ```
 
 <br/>
@@ -129,43 +119,12 @@ Most election analytics stop at seat tallies. This pipeline goes further — cro
 
 | Module | What it does |
 |:---|:---|
-| `data_pipeline.py` | Full ingestion → cleaning → party standardisation → winner extraction → flip detection → CSV outputs |
-| `dashboard.py` | Interactive Plotly Dash app — seat share, swing maps, regional filters, flip explorer |
-| `generate_deck_pdf.py` | Auto-builds dark-theme executive `.pptx` / `.pdf` deck with charts and strategic insights |
-| `atliq_media_election_deck.pdf` | Rendered broadcast deck ready for AtliQ Media TV show distribution |
-| `tamil_nadu_map.png` | TN constituency map used for geo-visualisation overlays |
-| `data/` | Raw CSVs — `tn_2021_results.csv`, `tn_2026_results.csv`, `constituency_master.csv` |
+| `hotel_booking_analysis.py` | Full 9-step EDA pipeline — cleans, engineers features, generates 12+ charts |
+| `_deck.py` | Auto-builds a dark-theme executive `.pptx` deck — charts, insights, recommendations |
+| `Hotel_bookings_final.csv` | 30,000 hotel booking transactions across 18 columns |
+| `strategy_pdf.pdf` | Rendered strategy presentation ready for board distribution |
 
 </div>
-
-<br/>
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#data)
-
-## Data Schema
-
-```
-tn_2021_results.csv  /  tn_2026_results.csv
-──────────────────────────────────────────────────────────────
-  ac_number     INT     Primary key — official ECI AC number (1–234)
-  constituency  STR     Assembly constituency name
-  candidate     STR     Candidate name as per ECI records
-  party         STR     Raw party name → standardised in pipeline
-  votes         INT     Total votes received
-  turnout       FLOAT   Constituency-level voter turnout %
-  reserved      STR     GEN | SC | ST  (188 / 44 / 2)
-  region        STR     Chennai Metro | North | Central | Kongu | Delta | South
-
-constituency_master.csv
-──────────────────────────────────────────────────────────────
-  ac_number     INT     Join key
-  constituency  STR     AC name
-  district      STR     Administrative district
-  region        STR     Six-region editorial grouping
-  reserved      STR     GEN | SC | ST
-```
-
-> **Sources:** 2021 data cleaned from Trivedi Centre for Political Data (Ashoka University) via ECI. 2026 data sourced from ECI live results portal `results.eci.gov.in`.
 
 <br/>
 
@@ -175,8 +134,8 @@ constituency_master.csv
 
 **1. Clone**
 ```bash
-git clone https://github.com/lakshyaverma2004/TamilNadu-elections-decoded.git
-cd TamilNadu-elections-decoded
+git clone https://github.com/lakshyaverma2004/Buisnees-Analysis-Report.git
+cd Buisnees-Analysis-Report
 ```
 
 **2. Create virtual environment**
@@ -188,10 +147,10 @@ source .venv/bin/activate        # macOS / Linux
 
 **3. Install dependencies**
 ```bash
-pip install pandas numpy plotly dash python-pptx
+pip install pandas numpy matplotlib seaborn python-pptx
 ```
 
-> Ensure the `data/` folder contains all three CSVs before running.
+> Make sure `Hotel_bookings_final.csv` is in the project root before running.
 
 <br/>
 
@@ -199,45 +158,36 @@ pip install pandas numpy plotly dash python-pptx
 
 ## Usage
 
-**Run the data pipeline**
+**Run the full EDA pipeline**
 ```bash
-python data_pipeline.py
+python hotel_booking_analysis.py
 ```
 
-**Launch the interactive dashboard**
+**Generate the executive PowerPoint deck**
 ```bash
-python dashboard.py
-# Open http://127.0.0.1:8050 in your browser
+python _deck.py
 ```
 
-**Generate the executive deck**
-```bash
-python generate_deck_pdf.py
-```
-
-**Expected pipeline output**
+**Expected console output**
 ```
 ══════════════════════════════════════════════════════════════
 STEP 1: DATA INGESTION & CLEANING
 ══════════════════════════════════════════════════════════════
-2021 dataset loaded : 4,232 rows × 8 columns
-2026 dataset loaded : 4,257 rows × 8 columns
-Master table loaded :   234 rows × 5 columns
-Party variants standardised: 13 mappings applied
+Dataset loaded: 30,000 rows x 18 columns
+
+Rows with missing check-in date :  5,468
+  -> Of those, cancelled         :  5,047
+  -> Of those, failed            :    396
 
 ══════════════════════════════════════════════════════════════
-STEP 2: WINNER EXTRACTION & FLIP DETECTION
+STEP 2: KEY METRICS
 ══════════════════════════════════════════════════════════════
-Winners extracted  — 2021 : 234 constituencies
-Winners extracted  — 2026 : 234 constituencies
-Seat flips detected        : [n] of 234  ([x.x]%)
-
-══════════════════════════════════════════════════════════════
-STEP 3: SUMMARY METRICS
-══════════════════════════════════════════════════════════════
-2026 Statewide Turnout : 85.10%  (Record High vs 73.04% in 2021)
-Volatility Index       : [n] seats changed hands
-Outputs saved to       : data/processed/
+Total Bookings       : 30,000
+Confirmed            : 21,660  (72.2%)
+Cancelled            :  6,070  (20.2%)
+Failed               :  2,260  ( 7.5%)
+Avg Booking Value    : $25,329
+Total Confirmed Rev  : $548,200,000
 ```
 
 <br/>
@@ -247,25 +197,18 @@ Outputs saved to       : data/processed/
 ## Project Structure
 
 ```
-TamilNadu-elections-decoded/
+Buisnees-Analysis-Report/
 │
-├── data_pipeline.py            Ingestion · cleaning · party std · flip detection · CSV outputs
-├── dashboard.py                Interactive Plotly Dash app — seat share, swing, regions
-├── generate_deck_pdf.py        Auto-generates AtliQ Media executive deck
-├── atliq_media_election_deck.pdf   Broadcast-ready strategy presentation
-├── tamil_nadu_map.png          TN constituency map for geo overlays
-├── pitch_script.md             Presenter script for AtliQ Media TV segment
-├── metadata.txt                Column descriptions and data source documentation
+├── hotel_booking_analysis.py   Main EDA + analysis pipeline (9 steps)
+├── _deck.py                    Executive PowerPoint deck generator
+├── Hotel_bookings_final.csv    Dataset — 30K records, 18 columns
+├── strategy_pdf.pdf            Rendered strategy presentation
 │
-└── data/
-    ├── tn_2021_results.csv         4,232 candidate rows · 234 constituencies
-    ├── tn_2026_results.csv         4,257 candidate rows · 234 constituencies
-    └── constituency_master.csv     234 ACs · district + region + reservation mapping
-        └── processed/              Pipeline outputs (auto-created on first run)
-            ├── cleaned_results_2021.csv
-            ├── cleaned_results_2026.csv
-            ├── constituency_winners_and_flips.csv
-            └── summary_metrics.txt
+└── assets/
+    ├── hero_demo.gif
+    ├── gif_01_ingestion.gif
+    ├── gif_02_charts.gif
+    └── gif_03_deck.gif
 ```
 
 <br/>
@@ -278,18 +221,18 @@ TamilNadu-elections-decoded/
 
 | Outcome | Result |
 |:---|:---:|
-| Elections decoded — both cycles fully merged | **234 × 2** |
-| Turnout swing surfaced | **+12.06 pp** |
-| Party name variants standardised | **13 mappings** |
+| Cancellation root cause identified | **92.3% traced** |
+| Recoverable revenue mapped | **$37M of $166M** |
+| Reporting time saved | **−55%** |
 | Manual deck formatting hours | **0 hrs** |
 
 </div>
 
 ```
-  Turnout swing quantified    ████████████████████  85.10% — record high
-  Constituencies covered      ████████████████████  234 / 234 (100%)
-  Party variants resolved     ████████████████░░░░  13 standardised
-  Auto deck — manual hrs      ████████████████████  0 hrs
+  Cancellation root cause found   ████████████████████  92.3% traced
+  Recoverable revenue mapped      ████████████████░░░░  $37M / $166M
+  Reporting time saved            ████████████████░░░░  -55%
+  Auto deck — manual formatting   ████████████████████  0 hrs
 ```
 
 <br/>
@@ -299,17 +242,15 @@ TamilNadu-elections-decoded/
 ## Roadmap
 
 ```
-[✓]  Data ingestion + multi-source merge pipeline
-[✓]  Party name standardisation (13 variant mappings)
-[✓]  Winner extraction + constituency flip detection
-[✓]  Volatility index — seat-level swing quantification
-[✓]  Interactive Plotly Dash dashboard
-[✓]  Auto-generated AtliQ Media executive deck (PDF)
-[ ]  Candidate-level vote-share trend charts
-[ ]  Margin-of-victory heatmap by region
-[ ]  Predictive model — swing seat classifier
-[ ]  Real-time ECI results feed integration
-[ ]  Multi-state expansion (Kerala, Karnataka, AP)
+[✓]  Data ingestion + cleaning pipeline
+[✓]  9-step EDA (channel, room, rating, seasonality, geo)
+[✓]  Cancellation root-cause analysis
+[✓]  Revenue impact quantification ($166M at risk)
+[✓]  Auto-generated executive PowerPoint deck
+[ ]  Interactive Plotly / Streamlit dashboard
+[ ]  Predictive cancellation model (XGBoost / logistic regression)
+[ ]  Real-time booking feed integration
+[ ]  Automated monthly report scheduler
 ```
 
 <br/>
@@ -330,7 +271,7 @@ git commit -m "feat: describe your change"
 git push origin feature/your-feature
 ```
 
-Please include a short explanation of the electoral insight any new analysis surfaces.
+Please include a short explanation of the business insight any new analysis surfaces.
 
 <br/>
 
@@ -355,14 +296,14 @@ Built by **[Lakshya Verma](https://github.com/lakshyaverma2004)**
 
 <br/>
 
-![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=lakshyaverma2004.TamilNadu-elections-decoded&left_color=0f172a&right_color=7c2d12&left_text=Views)
+![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=lakshyaverma2004.Buisnees-Analysis-Report&left_color=0f172a&right_color=1e3a5f&left_text=Views)
 
 <br/>
 
-*8,489 candidates. 234 constituencies. 5-year swing. One pipeline.*
+*$166M in risk. 3 fixes. 1 CSV. That's the job.*
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0f1e,100:0d1829&height=70&section=footer&text=Build.%20Analyse.%20Decode.&fontSize=16&fontColor=f97316&fontAlignY=50&desc=vermalakshya12%40gmail.com&descSize=11&descColor=64748b&descAlignY=80" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:040d1a,100:071220&height=70&section=footer&text=Build.%20Analyze.%20Automate.&fontSize=16&fontColor=38bdf8&fontAlignY=50&desc=vermalakshya12%40gmail.com&descSize=11&descColor=64748b&descAlignY=80" width="100%"/>
 
 </div>
